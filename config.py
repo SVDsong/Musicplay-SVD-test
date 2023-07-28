@@ -28,7 +28,7 @@ class Config:
         self.API_ID: str = os.environ.get("API_ID", "27957041")
         self.API_HASH: str = os.environ.get("API_HASH", "2ae1c9912cd2efdecae7f0208994f0b0")
         self.SESSION: str = os.environ.get("SESSION", "BQAvUwByudvP3r5A7dZB-SHb5DgcQwIgTD6rlpy0me9nrQtI7b_dRpiBFVIXkvLEYd60l-qMK8NLFimlnWhU7r6k5dFk2jRRRiQ5wzL6Naqb80ZBpm8xU6dv2aVe-FYMqYSDcIFXcHq9FzBgl4RXS8RoM10z4KKxVMX9opM911Hu82TbU2Gj15xfL3pTv9oqJAoub5M5GZDCtcf3z09S5J6Y1Eu066gGZF7rCyMSuJme514czQn_g6ftTpnkva6dAWEUtDYRBV-yPEvXciwQVNuQqocVCAHcilm5VQrShsEHOrZtqjmrmoq_Ux6jQ944eJ63rjzpfL_A-t2DSmQ4ijKJAAAAATmDeAIA")
-        self.BOT_TOKEN: str = os.environ.get("BOT_TOKEN", "6041305578:AAHifZOeb5UURh-X8APKhBVWCidv8aZvI_A")
+        self.BOT_TOKEN: str = os.environ.get("BOT_TOKEN", "6348947600:AAGyanbloXNJNsNXK3w772m6GERaM2A6fN0")
         self.SUDOERS: list = [
             int(id) for id in os.environ.get("SUDOERS", "5276467211").split() if id.isnumeric()
         ]
